@@ -1,7 +1,12 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    // Day 1 challenge
+    val lines = object {}::class.java.getResourceAsStream("Day01Input")?.bufferedReader()?.readLines()
+
+    val highestCalorySum = lines?.let { Day01().findHighestCalories(it) }
+    println("Day 1.1 result = $highestCalorySum")
+
+    val topThreeCalories = lines?.let { Day01().findTopThreeCalories(it) }
+    println("Day 1.2 result = $topThreeCalories")
+
 }
