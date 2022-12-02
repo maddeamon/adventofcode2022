@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9122e485-a0a1-4dc3-bf04-edf0e6556094" name="Changes" comment="Solutions for Day 1">
+    <list default="true" id="9122e485-a0a1-4dc3-bf04-edf0e6556094" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day02.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day02Input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Day02Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Day02TestInput" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day01.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Day01Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/Day01Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +23,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Worksheet" />
         <option value="Kotlin File" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -71,7 +84,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Day01Test">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Day01Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -95,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Day01Test.findHighestCalories" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Day02Test.calculatePointsForStrategy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +121,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Day01Test.findHighestCalories&quot;" />
+            <option value="&quot;Day02Test.calculatePointsForStrategy&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Day01Test.findTopThreeCalories" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Day02Test.calculatePointsForStrategy1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +144,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Day01Test.findTopThreeCalories&quot;" />
+            <option value="&quot;Day02Test.calculatePointsForStrategy1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Day02Test.calculatePointsForStrategy2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Day02Test.calculatePointsForStrategy2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,12 +184,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Day01Test" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.Day01Test.findTopThreeCalories" />
-        <item itemvalue="Gradle.Day01Test.findHighestCalories" />
+        <item itemvalue="Gradle.Day02Test.calculatePointsForStrategy2" />
+        <item itemvalue="Gradle.Day02Test.calculatePointsForStrategy1" />
+        <item itemvalue="Gradle.Day02Test.calculatePointsForStrategy" />
+        <item itemvalue="Gradle.Day01Test" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669898548054</updated>
-      <workItem from="1669898549620" duration="5576000" />
+      <workItem from="1669898549620" duration="14104000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669901192313</created>
@@ -174,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669901192313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solutions for Day 1">
+      <created>1669904248291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669904248291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,5 +238,16 @@
     <MESSAGE value="Solutions for Day 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Solutions for Day 1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Day02.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

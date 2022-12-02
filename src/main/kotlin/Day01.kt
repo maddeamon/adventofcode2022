@@ -1,11 +1,11 @@
 class Day01() {
 
     fun findHighestCalories(fileInput: List<String>): Int {
-        return sumCaloriesByElf(fileInput).reduce(Math::max)
+        return sumCaloriesByElf(fileInput).max()
     }
 
     fun findTopThreeCalories(fileInput: List<String>): Int {
-        return sumCaloriesByElf(fileInput).sortedDescending().subList(0, 3).reduce(Math::addExact)
+        return sumCaloriesByElf(fileInput).sortedDescending().take(3).sum()
     }
 
     private fun sumCaloriesByElf(fileInput: List<String>): List<Int> {
