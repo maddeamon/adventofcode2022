@@ -2,6 +2,7 @@ fun main() {
     runDay01()
     runDay02()
     runDay03()
+    runDay04()
 }
 
 fun runDay01() {
@@ -38,4 +39,16 @@ fun runDay03() {
 
     val prioritizedBadges = data?.let { Day03().calculatePriorityOfBadges(it) }
     println("Day 3.2 result = $prioritizedBadges")
+}
+
+fun runDay04() {
+
+    // Day 3 challenge
+    val data = object {}::class.java.getResourceAsStream("Day04Input")?.bufferedReader()?.readLines()
+
+    val duplicateAssignments = data?.let { Day04().calculateDuplicateAssignments(it) }
+    println("Day 4.1 result = $duplicateAssignments")
+
+    val overlappingAssignments = data?.let { Day04().calculateOverlappingAssignments(it) }
+    println("Day 4.2 result = $overlappingAssignments")
 }
